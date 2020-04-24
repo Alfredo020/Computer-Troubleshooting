@@ -1,0 +1,15 @@
+print ("Hello, Welcome to computer customer support! may you please tell me who am i speaking to today?")
+name = input()
+print("Good afternoon",name,"are you having trouble with your computer?")
+response = input()
+
+if response == ("yes"):
+    print ("sorry to hear that, i will ask you some questions to see if we can resolve this issue okay? ")
+response2 = input()
+
+if response2 == "sure":
+    print("Does your computer have a broken screen?" )
+issue = input()
+if issue == "yes":
+    print("Go to your closest computer store as soon as possible")
+    exit()
