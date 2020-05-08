@@ -28,11 +28,11 @@ while issuesolved == False:
         if ("battery" in issue1 or "swollen" in issue1):
             print(answer1)
             issuesolved = True
-        elif ("virus"
+        elif ("virus" in issue1
             or "display" in issue1):
           print(answer2)
           issuesolved = True
-        elif("error"
+        elif("error" in issue1
             or "message" in issue1):
           print(answer3)
           issuesolved = True
@@ -58,15 +58,15 @@ while issuesolved == False:
     
     while boolean == 3:
         issue2 = str(input("Please decribe what is wrong with your computer."))
-        if ("screen"
+        if ("screen" in issue2
           or "broken" in issue2):
           print(answer4)
           issuesolved = True
-        elif("water"
+        elif("water" in issue2
             or "liquid" in issue2):
           print(answer5)
           issuesolved = True
-        elif("error"
+        elif("error" in issue2
             or "message" in issue2):
             print(answer6)
             issuesolved = True
