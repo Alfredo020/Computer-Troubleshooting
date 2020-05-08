@@ -36,7 +36,7 @@ while issuesolved == False:
             or "message" in issue1):
           print(answer3)
           issuesolved = True
-        programfinished = input("Has the source of the problem been found and a solution suggested?")
+        programfinished = input("Has the problem been found and a solution suggested?")
         if programfinished == "yes":
           system = False
           time.sleep(3)
@@ -70,7 +70,7 @@ while issuesolved == False:
             or "message" in issue2):
             print(answer6)
             issuesolved = True
-        programfinished = input("Has the source of the problem been found and a solution suggested?")
+        programfinished = input("Has the problem been found and a solution suggested?")
         if programfinished == "yes":
           system = False
           time.sleep(3)
